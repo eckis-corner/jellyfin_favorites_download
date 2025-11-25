@@ -1,11 +1,15 @@
 # 📥 Jellyfin Favorites Downloader
 
-Ein vielseitiges und robustes Python-Skript, das es ermöglicht, alle in Jellyfin als **Favoriten** markierten Filme, Episoden, Staffeln oder kompletten Serien automatisch herunterzuladen.
-Das Skript nutzt die Jellyfin-API, analysiert intelligent die markierten Inhalte und legt sie anschließend in einer klar strukturierten Medienbibliothek ab – inklusive automatisch erzeugter Ordner für Serien, Staffeln und korrekt benannten Episoden.
+Ein praktisches und angenehm unkompliziertes Python-Skript, mit dem du deine Lieblingsfilme und -serien aus Jellyfin ganz automatisch herunterladen kannst.
+Alles, was du als **Favorit** markierst – egal ob Filme, einzelne Folgen, ganze Staffeln oder komplette Serien – landet sauber sortiert in deinem lokalen Medienordner.
 
-Dank integrierter Funktionen wie einer Download-Fortschrittsanzeige, einer vollständigen Volumen- und Aufgabenanalyse, einem DRY-RUN-Modus zur Vorschau aller Aktionen, sowie der Option für einen automatischen Login per hinterlegtem Benutzername und Passwort, eignet sich das Skript sowohl für einfache Anwender als auch für fortgeschrittene Automatisierungs-Workflows.
+Das Skript kümmert sich dabei um alles Wichtige:
+Es erstellt die richtige Ordnerstruktur für Serien, zeigt dir beim Herunterladen einen Fortschrittsbalken, kann dir vorher ausrechnen, wie viel du runterladen würdest, und hat sogar einen Dry-Run-Modus, falls du erst mal testen willst, ohne etwas anzufassen.
 
-Es bietet eine zuverlässige, flexible und komfortable Möglichkeit, die eigenen Lieblingsinhalte aus Jellyfin lokal zu sichern oder zu archivieren – vollständig automatisiert und ohne manuelle Eingriffe.
+Wenn du möchtest, kannst du sogar deinen Jellyfin-Login direkt hinterlegen, damit das Skript komplett ohne Rückfragen durchläuft.
+
+Kurz gesagt:
+Ein kleines Helferlein, das dir jede Menge Klickerei abnimmt und deine Jellyfin-Favoriten automatisch sauber auf deine Festplatte bringt.
 
 ## ✨ Funktionen
 
