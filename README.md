@@ -137,6 +137,11 @@ python3 jellyfin_favorites_download.py --verbose
 
 ## 🔐 Sicherheitshinweis
 
+Wenn Benutzername/Passwort im Skript gespeichert werden:
+* Datei niemals öffentlich teilen
+* Niemals in ein öffentliches Repository committen
+* Optional schützen:
+  
 ``` bash
 chmod 600 jellyfin_favorites_download.py
 ```
