@@ -79,6 +79,8 @@ pip3 install requests
 
 ## ⚙️ Konfiguration
 
+Unter Konfiguration musst du noch den Jellyfin-Server angeben und wo die Dateien (Filme und Serien) landen sollen.
+
 ``` python
 JELLYFIN_URL = "https://dein-jellyfin-server.de"
 
@@ -88,6 +90,16 @@ TARGET_SERIES_DIR = Path("/Pfad/zu/Serien")
 JELLYFIN_USERNAME = "dein_benutzer"
 JELLYFIN_PASSWORD = "dein_passwort"
 ```
+
+Wenn du dein Login nicht in der Datei speichern willst, lasse die gespeicherten Werte leer:
+
+``` python
+...
+JELLYFIN_USERNAME = ""
+JELLYFIN_PASSWORD = ""
+```
+
+
 
 ## 🏁 Verwendung
 
